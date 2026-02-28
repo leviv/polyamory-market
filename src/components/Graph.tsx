@@ -5,14 +5,16 @@ import './Graph.scss'
 const startDate = new Date('2024-11-01')
 const endDate = new Date('2026-02-28')
 
-// Generate realistic-looking data for each candidate
+// Generate realistic-looking data for each candidate (time in seconds for Liveline)
 const newsom: LivelinePoint[] = (() => {
   const points: LivelinePoint[] = []
-  const dayMs = 24 * 60 * 60 * 1000
+  const daySecs = 24 * 60 * 60
   let value = 15
+  const startSecs = Math.floor(startDate.getTime() / 1000)
+  const endSecs = Math.floor(endDate.getTime() / 1000)
   
-  for (let time = startDate.getTime(); time <= endDate.getTime(); time += dayMs) {
-    const date = new Date(time)
+  for (let time = startSecs; time <= endSecs; time += daySecs) {
+    const date = new Date(time * 1000)
     // Simulate jump around Aug 2025
     if (date >= new Date('2025-08-01') && date < new Date('2025-08-15')) {
       value += 1.5
@@ -30,11 +32,13 @@ const newsom: LivelinePoint[] = (() => {
 
 const aoc: LivelinePoint[] = (() => {
   const points: LivelinePoint[] = []
-  const dayMs = 24 * 60 * 60 * 1000
+  const daySecs = 24 * 60 * 60
   let value = 5
+  const startSecs = Math.floor(startDate.getTime() / 1000)
+  const endSecs = Math.floor(endDate.getTime() / 1000)
   
-  for (let time = startDate.getTime(); time <= endDate.getTime(); time += dayMs) {
-    const date = new Date(time)
+  for (let time = startSecs; time <= endSecs; time += daySecs) {
+    const date = new Date(time * 1000)
     // Gradual rise mid-2025
     if (date >= new Date('2025-06-01') && date < new Date('2025-09-01')) {
       value += 0.05
@@ -49,10 +53,12 @@ const aoc: LivelinePoint[] = (() => {
 
 const harris: LivelinePoint[] = (() => {
   const points: LivelinePoint[] = []
-  const dayMs = 24 * 60 * 60 * 1000
+  const daySecs = 24 * 60 * 60
   let value = 4
+  const startSecs = Math.floor(startDate.getTime() / 1000)
+  const endSecs = Math.floor(endDate.getTime() / 1000)
   
-  for (let time = startDate.getTime(); time <= endDate.getTime(); time += dayMs) {
+  for (let time = startSecs; time <= endSecs; time += daySecs) {
     value += (Math.random() - 0.5) * 0.8
     value = Math.max(2, Math.min(12, value))
     points.push({ time, value })
@@ -80,9 +86,25 @@ const defaultCandidates: Candidate[] = [
 ]
 
 export const Graph = ({ candidates = defaultCandidates }: GraphProps) => {
+  // Convert timestamps from milliseconds to seconds if needed (Liveline expects seconds)
+  // Timestamps > 1e12 are likely milliseconds
+  const normalizedCandidates = candidates.map(c => ({
+    ...c,
+    data: c.data.map(p => ({
+      ...p,
+      time: p.time > 1e12 ? Math.floor(p.time / 1000) : p.time
+    }))
+  }))
+  
   // Ensure we have valid candidates with data
-  const validCandidates = candidates.filter(c => c.data && c.data.length > 0)
+  const validCandidates = normalizedCandidates.filter(c => c.data && c.data.length > 0)
   const activeCandidates = validCandidates.length > 0 ? validCandidates : defaultCandidates
+  
+  // Calculate the time window based on data range (data is now in seconds)
+  const allDataPoints = activeCandidates.flatMap(c => c.data)
+  const minTime = Math.min(...allDataPoints.map(p => p.time))
+  const maxTime = Math.max(...allDataPoints.map(p => p.time))
+  const windowSecs = Math.ceil(maxTime - minTime) + 86400 // Add 1 day buffer
 
   const series: LivelineSeries[] = activeCandidates.map(c => ({
     id: c.id,
@@ -111,6 +133,7 @@ export const Graph = ({ candidates = defaultCandidates }: GraphProps) => {
           data={activeCandidates[0]?.data || []}
           value={activeCandidates[0]?.value || 0}
           series={series}
+          window={windowSecs}
           theme="light"
           grid={true}
           scrub={true}
@@ -118,7 +141,7 @@ export const Graph = ({ candidates = defaultCandidates }: GraphProps) => {
           badge={false}
           formatValue={(v) => `${Math.round(v)}%`}
           formatTime={(t) => {
-            const date = new Date(t)
+            const date = new Date(t * 1000) // Convert seconds to milliseconds
             const month = date.toLocaleDateString('en-US', { month: 'short' })
             const year = date.getFullYear()
             return `${month} ${year}`
