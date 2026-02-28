@@ -1,0 +1,42 @@
+.graph-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.graph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 20px;
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .legend-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .legend-name {
+      font-size: 14px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .legend-value {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+  }
+}
+
+.graph-chart {
+  height: 300px;
+  width: 100%;
+}
