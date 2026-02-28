@@ -80,7 +80,11 @@ const defaultCandidates: Candidate[] = [
 ]
 
 export const Graph = ({ candidates = defaultCandidates }: GraphProps) => {
-  const series: LivelineSeries[] = candidates.map(c => ({
+  // Ensure we have valid candidates with data
+  const validCandidates = candidates.filter(c => c.data && c.data.length > 0)
+  const activeCandidates = validCandidates.length > 0 ? validCandidates : defaultCandidates
+
+  const series: LivelineSeries[] = activeCandidates.map(c => ({
     id: c.id,
     data: c.data,
     value: c.value,
@@ -92,7 +96,7 @@ export const Graph = ({ candidates = defaultCandidates }: GraphProps) => {
     <div className="graph-container">
       {/* Legend */}
       <div className="graph-legend">
-        {candidates.map(c => (
+        {activeCandidates.map(c => (
           <div key={c.id} className="legend-item">
             <span className="legend-dot" style={{ backgroundColor: c.color }} />
             <span className="legend-name">{c.name}</span>
@@ -104,8 +108,8 @@ export const Graph = ({ candidates = defaultCandidates }: GraphProps) => {
       {/* Chart */}
       <div className="graph-chart">
         <Liveline
-          data={candidates[0]?.data || []}
-          value={candidates[0]?.value || 0}
+          data={activeCandidates[0]?.data || []}
+          value={activeCandidates[0]?.value || 0}
           series={series}
           theme="light"
           grid={true}

@@ -3,8 +3,10 @@
     {
       "id": "taylor-jordan",
       "title": "Will Taylor & Jordan break up?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple1",
-      "categories": ["Relationships", "Celebrity"],
+      "image": "https://randomuser.me/api/portraits/women/1.jpg",
+      "categories": [
+        "Relationships"
+      ],
       "volume": "$12,847,293",
       "marketCount": 5,
       "verificationSource": "Official Announcement",
@@ -13,7 +15,7 @@
         {
           "id": "taylor",
           "name": "Taylor Mitchell",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=taylor",
+          "image": "https://randomuser.me/api/portraits/women/1.jpg",
           "chance": 35,
           "change": 2,
           "yesPrice": 35,
@@ -24,7 +26,7 @@
         {
           "id": "jordan",
           "name": "Jordan Rivera",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=jordan",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
           "chance": 28,
           "yesPrice": 28,
           "noPrice": 72,
@@ -34,28 +36,146 @@
       ],
       "chartData": {
         "taylor": [
-          {"time": 1730419200000, "value": 20}, {"time": 1732924800000, "value": 22},
-          {"time": 1735603200000, "value": 25}, {"time": 1738281600000, "value": 28},
-          {"time": 1740787200000, "value": 30}, {"time": 1743465600000, "value": 32},
-          {"time": 1746057600000, "value": 29}, {"time": 1748736000000, "value": 33},
-          {"time": 1751328000000, "value": 35}, {"time": 1754006400000, "value": 38},
-          {"time": 1756684800000, "value": 36}, {"time": 1759276800000, "value": 35}
+          {
+            "time": 1730419200000,
+            "value": 20
+          },
+          {
+            "time": 1733101200000,
+            "value": 22
+          },
+          {
+            "time": 1735779600000,
+            "value": 23
+          },
+          {
+            "time": 1738458000000,
+            "value": 22
+          },
+          {
+            "time": 1740877200000,
+            "value": 23
+          },
+          {
+            "time": 1743552000000,
+            "value": 23
+          },
+          {
+            "time": 1746144000000,
+            "value": 26
+          },
+          {
+            "time": 1748822400000,
+            "value": 26
+          },
+          {
+            "time": 1751414400000,
+            "value": 27
+          },
+          {
+            "time": 1754092800000,
+            "value": 29
+          },
+          {
+            "time": 1756771200000,
+            "value": 31
+          },
+          {
+            "time": 1759363200000,
+            "value": 29
+          },
+          {
+            "time": 1762041600000,
+            "value": 32
+          },
+          {
+            "time": 1764637200000,
+            "value": 34
+          },
+          {
+            "time": 1767315600000,
+            "value": 34
+          },
+          {
+            "time": 1769994000000,
+            "value": 35
+          }
         ],
         "jordan": [
-          {"time": 1730419200000, "value": 18}, {"time": 1732924800000, "value": 20},
-          {"time": 1735603200000, "value": 22}, {"time": 1738281600000, "value": 24},
-          {"time": 1740787200000, "value": 26}, {"time": 1743465600000, "value": 25},
-          {"time": 1746057600000, "value": 27}, {"time": 1748736000000, "value": 28},
-          {"time": 1751328000000, "value": 26}, {"time": 1754006400000, "value": 29},
-          {"time": 1756684800000, "value": 27}, {"time": 1759276800000, "value": 28}
+          {
+            "time": 1730419200000,
+            "value": 19
+          },
+          {
+            "time": 1733101200000,
+            "value": 17
+          },
+          {
+            "time": 1735779600000,
+            "value": 20
+          },
+          {
+            "time": 1738458000000,
+            "value": 19
+          },
+          {
+            "time": 1740877200000,
+            "value": 21
+          },
+          {
+            "time": 1743552000000,
+            "value": 21
+          },
+          {
+            "time": 1746144000000,
+            "value": 23
+          },
+          {
+            "time": 1748822400000,
+            "value": 23
+          },
+          {
+            "time": 1751414400000,
+            "value": 23
+          },
+          {
+            "time": 1754092800000,
+            "value": 24
+          },
+          {
+            "time": 1756771200000,
+            "value": 25
+          },
+          {
+            "time": 1759363200000,
+            "value": 27
+          },
+          {
+            "time": 1762041600000,
+            "value": 27
+          },
+          {
+            "time": 1764637200000,
+            "value": 27
+          },
+          {
+            "time": 1767315600000,
+            "value": 29
+          },
+          {
+            "time": 1769994000000,
+            "value": 28
+          }
         ]
       }
     },
     {
       "id": "alex-sam",
       "title": "Will Alex & Sam stay together?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple2",
-      "categories": ["Relationships", "Social Media"],
+      "image": "https://randomuser.me/api/portraits/men/2.jpg",
+      "categories": [
+        "Relationships"
+      ],
       "volume": "$8,234,567",
       "marketCount": 3,
       "verificationSource": "Social Media Confirmation",
@@ -64,7 +184,7 @@
         {
           "id": "alex",
           "name": "Alex Chen",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=alex",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
           "chance": 72,
           "change": -3,
           "yesPrice": 72,
@@ -75,7 +195,7 @@
         {
           "id": "sam",
           "name": "Sam Williams",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=sam",
+          "image": "https://randomuser.me/api/portraits/women/2.jpg",
           "chance": 68,
           "yesPrice": 68,
           "noPrice": 32,
@@ -85,28 +205,146 @@
       ],
       "chartData": {
         "alex": [
-          {"time": 1730419200000, "value": 80}, {"time": 1732924800000, "value": 78},
-          {"time": 1735603200000, "value": 76}, {"time": 1738281600000, "value": 75},
-          {"time": 1740787200000, "value": 74}, {"time": 1743465600000, "value": 73},
-          {"time": 1746057600000, "value": 74}, {"time": 1748736000000, "value": 72},
-          {"time": 1751328000000, "value": 73}, {"time": 1754006400000, "value": 71},
-          {"time": 1756684800000, "value": 73}, {"time": 1759276800000, "value": 72}
+          {
+            "time": 1730419200000,
+            "value": 57
+          },
+          {
+            "time": 1733101200000,
+            "value": 58
+          },
+          {
+            "time": 1735779600000,
+            "value": 57
+          },
+          {
+            "time": 1738458000000,
+            "value": 58
+          },
+          {
+            "time": 1740877200000,
+            "value": 62
+          },
+          {
+            "time": 1743552000000,
+            "value": 62
+          },
+          {
+            "time": 1746144000000,
+            "value": 64
+          },
+          {
+            "time": 1748822400000,
+            "value": 64
+          },
+          {
+            "time": 1751414400000,
+            "value": 64
+          },
+          {
+            "time": 1754092800000,
+            "value": 65
+          },
+          {
+            "time": 1756771200000,
+            "value": 67
+          },
+          {
+            "time": 1759363200000,
+            "value": 68
+          },
+          {
+            "time": 1762041600000,
+            "value": 69
+          },
+          {
+            "time": 1764637200000,
+            "value": 71
+          },
+          {
+            "time": 1767315600000,
+            "value": 70
+          },
+          {
+            "time": 1769994000000,
+            "value": 72
+          }
         ],
         "sam": [
-          {"time": 1730419200000, "value": 75}, {"time": 1732924800000, "value": 73},
-          {"time": 1735603200000, "value": 72}, {"time": 1738281600000, "value": 70},
-          {"time": 1740787200000, "value": 69}, {"time": 1743465600000, "value": 68},
-          {"time": 1746057600000, "value": 70}, {"time": 1748736000000, "value": 68},
-          {"time": 1751328000000, "value": 69}, {"time": 1754006400000, "value": 67},
-          {"time": 1756684800000, "value": 69}, {"time": 1759276800000, "value": 68}
+          {
+            "time": 1730419200000,
+            "value": 58
+          },
+          {
+            "time": 1733101200000,
+            "value": 59
+          },
+          {
+            "time": 1735779600000,
+            "value": 60
+          },
+          {
+            "time": 1738458000000,
+            "value": 61
+          },
+          {
+            "time": 1740877200000,
+            "value": 60
+          },
+          {
+            "time": 1743552000000,
+            "value": 60
+          },
+          {
+            "time": 1746144000000,
+            "value": 62
+          },
+          {
+            "time": 1748822400000,
+            "value": 61
+          },
+          {
+            "time": 1751414400000,
+            "value": 63
+          },
+          {
+            "time": 1754092800000,
+            "value": 62
+          },
+          {
+            "time": 1756771200000,
+            "value": 65
+          },
+          {
+            "time": 1759363200000,
+            "value": 67
+          },
+          {
+            "time": 1762041600000,
+            "value": 65
+          },
+          {
+            "time": 1764637200000,
+            "value": 68
+          },
+          {
+            "time": 1767315600000,
+            "value": 66
+          },
+          {
+            "time": 1769994000000,
+            "value": 68
+          }
         ]
       }
     },
     {
       "id": "casey-morgan",
       "title": "Casey & Morgan: End of an Era?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple3",
-      "categories": ["Relationships", "Influencers"],
+      "image": "https://randomuser.me/api/portraits/women/3.jpg",
+      "categories": [
+        "Relationships"
+      ],
       "volume": "$23,456,789",
       "marketCount": 8,
       "verificationSource": "TMZ Report",
@@ -115,7 +353,7 @@
         {
           "id": "casey",
           "name": "Casey Thompson",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=casey",
+          "image": "https://randomuser.me/api/portraits/women/3.jpg",
           "chance": 55,
           "change": 5,
           "yesPrice": 55,
@@ -126,7 +364,7 @@
         {
           "id": "morgan",
           "name": "Morgan Blake",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=morgan",
+          "image": "https://randomuser.me/api/portraits/men/3.jpg",
           "chance": 48,
           "yesPrice": 48,
           "noPrice": 52,
@@ -136,28 +374,147 @@
       ],
       "chartData": {
         "casey": [
-          {"time": 1730419200000, "value": 30}, {"time": 1732924800000, "value": 35},
-          {"time": 1735603200000, "value": 38}, {"time": 1738281600000, "value": 42},
-          {"time": 1740787200000, "value": 45}, {"time": 1743465600000, "value": 48},
-          {"time": 1746057600000, "value": 50}, {"time": 1748736000000, "value": 52},
-          {"time": 1751328000000, "value": 54}, {"time": 1754006400000, "value": 53},
-          {"time": 1756684800000, "value": 56}, {"time": 1759276800000, "value": 55}
+          {
+            "time": 1730419200000,
+            "value": 40
+          },
+          {
+            "time": 1733101200000,
+            "value": 40
+          },
+          {
+            "time": 1735779600000,
+            "value": 42
+          },
+          {
+            "time": 1738458000000,
+            "value": 43
+          },
+          {
+            "time": 1740877200000,
+            "value": 46
+          },
+          {
+            "time": 1743552000000,
+            "value": 47
+          },
+          {
+            "time": 1746144000000,
+            "value": 46
+          },
+          {
+            "time": 1748822400000,
+            "value": 46
+          },
+          {
+            "time": 1751414400000,
+            "value": 47
+          },
+          {
+            "time": 1754092800000,
+            "value": 48
+          },
+          {
+            "time": 1756771200000,
+            "value": 49
+          },
+          {
+            "time": 1759363200000,
+            "value": 52
+          },
+          {
+            "time": 1762041600000,
+            "value": 53
+          },
+          {
+            "time": 1764637200000,
+            "value": 53
+          },
+          {
+            "time": 1767315600000,
+            "value": 53
+          },
+          {
+            "time": 1769994000000,
+            "value": 55
+          }
         ],
         "morgan": [
-          {"time": 1730419200000, "value": 28}, {"time": 1732924800000, "value": 32},
-          {"time": 1735603200000, "value": 35}, {"time": 1738281600000, "value": 38},
-          {"time": 1740787200000, "value": 40}, {"time": 1743465600000, "value": 42},
-          {"time": 1746057600000, "value": 45}, {"time": 1748736000000, "value": 46},
-          {"time": 1751328000000, "value": 48}, {"time": 1754006400000, "value": 47},
-          {"time": 1756684800000, "value": 49}, {"time": 1759276800000, "value": 48}
+          {
+            "time": 1730419200000,
+            "value": 39
+          },
+          {
+            "time": 1733101200000,
+            "value": 37
+          },
+          {
+            "time": 1735779600000,
+            "value": 39
+          },
+          {
+            "time": 1738458000000,
+            "value": 38
+          },
+          {
+            "time": 1740877200000,
+            "value": 40
+          },
+          {
+            "time": 1743552000000,
+            "value": 43
+          },
+          {
+            "time": 1746144000000,
+            "value": 43
+          },
+          {
+            "time": 1748822400000,
+            "value": 42
+          },
+          {
+            "time": 1751414400000,
+            "value": 43
+          },
+          {
+            "time": 1754092800000,
+            "value": 44
+          },
+          {
+            "time": 1756771200000,
+            "value": 45
+          },
+          {
+            "time": 1759363200000,
+            "value": 44
+          },
+          {
+            "time": 1762041600000,
+            "value": 46
+          },
+          {
+            "time": 1764637200000,
+            "value": 45
+          },
+          {
+            "time": 1767315600000,
+            "value": 48
+          },
+          {
+            "time": 1769994000000,
+            "value": 48
+          }
         ]
       }
     },
     {
       "id": "riley-quinn",
       "title": "Will Riley & Quinn make it to 2027?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple4",
-      "categories": ["Relationships", "Reality TV"],
+      "image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "categories": [
+        "Relationships",
+        "Reality TV"
+      ],
       "volume": "$5,678,901",
       "marketCount": 4,
       "verificationSource": "Reality Show Finale",
@@ -166,7 +523,7 @@
         {
           "id": "riley",
           "name": "Riley Anderson",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=riley",
+          "image": "https://randomuser.me/api/portraits/women/4.jpg",
           "chance": 42,
           "yesPrice": 42,
           "noPrice": 58,
@@ -176,7 +533,7 @@
         {
           "id": "quinn",
           "name": "Quinn Foster",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=quinn",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
           "chance": 38,
           "change": -2,
           "yesPrice": 38,
@@ -187,28 +544,147 @@
       ],
       "chartData": {
         "riley": [
-          {"time": 1730419200000, "value": 50}, {"time": 1732924800000, "value": 48},
-          {"time": 1735603200000, "value": 46}, {"time": 1738281600000, "value": 45},
-          {"time": 1740787200000, "value": 44}, {"time": 1743465600000, "value": 43},
-          {"time": 1746057600000, "value": 44}, {"time": 1748736000000, "value": 42},
-          {"time": 1751328000000, "value": 43}, {"time": 1754006400000, "value": 41},
-          {"time": 1756684800000, "value": 43}, {"time": 1759276800000, "value": 42}
+          {
+            "time": 1730419200000,
+            "value": 28
+          },
+          {
+            "time": 1733101200000,
+            "value": 30
+          },
+          {
+            "time": 1735779600000,
+            "value": 30
+          },
+          {
+            "time": 1738458000000,
+            "value": 29
+          },
+          {
+            "time": 1740877200000,
+            "value": 30
+          },
+          {
+            "time": 1743552000000,
+            "value": 34
+          },
+          {
+            "time": 1746144000000,
+            "value": 34
+          },
+          {
+            "time": 1748822400000,
+            "value": 36
+          },
+          {
+            "time": 1751414400000,
+            "value": 35
+          },
+          {
+            "time": 1754092800000,
+            "value": 35
+          },
+          {
+            "time": 1756771200000,
+            "value": 39
+          },
+          {
+            "time": 1759363200000,
+            "value": 40
+          },
+          {
+            "time": 1762041600000,
+            "value": 38
+          },
+          {
+            "time": 1764637200000,
+            "value": 40
+          },
+          {
+            "time": 1767315600000,
+            "value": 41
+          },
+          {
+            "time": 1769994000000,
+            "value": 42
+          }
         ],
         "quinn": [
-          {"time": 1730419200000, "value": 45}, {"time": 1732924800000, "value": 43},
-          {"time": 1735603200000, "value": 42}, {"time": 1738281600000, "value": 40},
-          {"time": 1740787200000, "value": 39}, {"time": 1743465600000, "value": 38},
-          {"time": 1746057600000, "value": 40}, {"time": 1748736000000, "value": 38},
-          {"time": 1751328000000, "value": 39}, {"time": 1754006400000, "value": 37},
-          {"time": 1756684800000, "value": 39}, {"time": 1759276800000, "value": 38}
+          {
+            "time": 1730419200000,
+            "value": 29
+          },
+          {
+            "time": 1733101200000,
+            "value": 27
+          },
+          {
+            "time": 1735779600000,
+            "value": 30
+          },
+          {
+            "time": 1738458000000,
+            "value": 29
+          },
+          {
+            "time": 1740877200000,
+            "value": 31
+          },
+          {
+            "time": 1743552000000,
+            "value": 30
+          },
+          {
+            "time": 1746144000000,
+            "value": 31
+          },
+          {
+            "time": 1748822400000,
+            "value": 34
+          },
+          {
+            "time": 1751414400000,
+            "value": 34
+          },
+          {
+            "time": 1754092800000,
+            "value": 33
+          },
+          {
+            "time": 1756771200000,
+            "value": 33
+          },
+          {
+            "time": 1759363200000,
+            "value": 36
+          },
+          {
+            "time": 1762041600000,
+            "value": 35
+          },
+          {
+            "time": 1764637200000,
+            "value": 37
+          },
+          {
+            "time": 1767315600000,
+            "value": 36
+          },
+          {
+            "time": 1769994000000,
+            "value": 38
+          }
         ]
       }
     },
     {
       "id": "avery-drew",
       "title": "Avery & Drew: Splitsville?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple5",
-      "categories": ["Relationships", "Music Industry"],
+      "image": "https://randomuser.me/api/portraits/women/5.jpg",
+      "categories": [
+        "Relationships",
+        "Music Industry"
+      ],
       "volume": "$31,234,567",
       "marketCount": 12,
       "verificationSource": "Music Label Press Release",
@@ -217,7 +693,7 @@
         {
           "id": "avery",
           "name": "Avery Stone",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=avery",
+          "image": "https://randomuser.me/api/portraits/women/5.jpg",
           "chance": 18,
           "change": -5,
           "yesPrice": 18,
@@ -228,7 +704,7 @@
         {
           "id": "drew",
           "name": "Drew Martinez",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=drew",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
           "chance": 15,
           "yesPrice": 15,
           "noPrice": 85,
@@ -238,28 +714,147 @@
       ],
       "chartData": {
         "avery": [
-          {"time": 1730419200000, "value": 25}, {"time": 1732924800000, "value": 24},
-          {"time": 1735603200000, "value": 23}, {"time": 1738281600000, "value": 22},
-          {"time": 1740787200000, "value": 21}, {"time": 1743465600000, "value": 20},
-          {"time": 1746057600000, "value": 19}, {"time": 1748736000000, "value": 18},
-          {"time": 1751328000000, "value": 19}, {"time": 1754006400000, "value": 18},
-          {"time": 1756684800000, "value": 19}, {"time": 1759276800000, "value": 18}
+          {
+            "time": 1730419200000,
+            "value": 2
+          },
+          {
+            "time": 1733101200000,
+            "value": 5
+          },
+          {
+            "time": 1735779600000,
+            "value": 6
+          },
+          {
+            "time": 1738458000000,
+            "value": 7
+          },
+          {
+            "time": 1740877200000,
+            "value": 6
+          },
+          {
+            "time": 1743552000000,
+            "value": 7
+          },
+          {
+            "time": 1746144000000,
+            "value": 10
+          },
+          {
+            "time": 1748822400000,
+            "value": 11
+          },
+          {
+            "time": 1751414400000,
+            "value": 11
+          },
+          {
+            "time": 1754092800000,
+            "value": 12
+          },
+          {
+            "time": 1756771200000,
+            "value": 13
+          },
+          {
+            "time": 1759363200000,
+            "value": 13
+          },
+          {
+            "time": 1762041600000,
+            "value": 16
+          },
+          {
+            "time": 1764637200000,
+            "value": 15
+          },
+          {
+            "time": 1767315600000,
+            "value": 17
+          },
+          {
+            "time": 1769994000000,
+            "value": 18
+          }
         ],
         "drew": [
-          {"time": 1730419200000, "value": 22}, {"time": 1732924800000, "value": 21},
-          {"time": 1735603200000, "value": 20}, {"time": 1738281600000, "value": 19},
-          {"time": 1740787200000, "value": 18}, {"time": 1743465600000, "value": 17},
-          {"time": 1746057600000, "value": 16}, {"time": 1748736000000, "value": 15},
-          {"time": 1751328000000, "value": 16}, {"time": 1754006400000, "value": 15},
-          {"time": 1756684800000, "value": 16}, {"time": 1759276800000, "value": 15}
+          {
+            "time": 1730419200000,
+            "value": 3
+          },
+          {
+            "time": 1733101200000,
+            "value": 6
+          },
+          {
+            "time": 1735779600000,
+            "value": 7
+          },
+          {
+            "time": 1738458000000,
+            "value": 6
+          },
+          {
+            "time": 1740877200000,
+            "value": 8
+          },
+          {
+            "time": 1743552000000,
+            "value": 10
+          },
+          {
+            "time": 1746144000000,
+            "value": 8
+          },
+          {
+            "time": 1748822400000,
+            "value": 8
+          },
+          {
+            "time": 1751414400000,
+            "value": 10
+          },
+          {
+            "time": 1754092800000,
+            "value": 9
+          },
+          {
+            "time": 1756771200000,
+            "value": 13
+          },
+          {
+            "time": 1759363200000,
+            "value": 14
+          },
+          {
+            "time": 1762041600000,
+            "value": 11
+          },
+          {
+            "time": 1764637200000,
+            "value": 15
+          },
+          {
+            "time": 1767315600000,
+            "value": 15
+          },
+          {
+            "time": 1769994000000,
+            "value": 15
+          }
         ]
       }
     },
     {
       "id": "skyler-jamie",
       "title": "Will Skyler leave Jamie?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple6",
-      "categories": ["Relationships", "Tech"],
+      "image": "https://randomuser.me/api/portraits/men/6.jpg",
+      "categories": [
+        "Relationships",
+        "Tech"
+      ],
       "volume": "$7,890,123",
       "marketCount": 6,
       "verificationSource": "LinkedIn Update",
@@ -268,7 +863,7 @@
         {
           "id": "skyler",
           "name": "Skyler Park",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=skyler",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
           "chance": 61,
           "change": 8,
           "yesPrice": 61,
@@ -279,7 +874,7 @@
         {
           "id": "jamie",
           "name": "Jamie Lee",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=jamie",
+          "image": "https://randomuser.me/api/portraits/women/6.jpg",
           "chance": 55,
           "yesPrice": 55,
           "noPrice": 45,
@@ -289,28 +884,147 @@
       ],
       "chartData": {
         "skyler": [
-          {"time": 1730419200000, "value": 40}, {"time": 1732924800000, "value": 43},
-          {"time": 1735603200000, "value": 46}, {"time": 1738281600000, "value": 48},
-          {"time": 1740787200000, "value": 51}, {"time": 1743465600000, "value": 53},
-          {"time": 1746057600000, "value": 55}, {"time": 1748736000000, "value": 57},
-          {"time": 1751328000000, "value": 59}, {"time": 1754006400000, "value": 58},
-          {"time": 1756684800000, "value": 60}, {"time": 1759276800000, "value": 61}
+          {
+            "time": 1730419200000,
+            "value": 47
+          },
+          {
+            "time": 1733101200000,
+            "value": 47
+          },
+          {
+            "time": 1735779600000,
+            "value": 49
+          },
+          {
+            "time": 1738458000000,
+            "value": 47
+          },
+          {
+            "time": 1740877200000,
+            "value": 50
+          },
+          {
+            "time": 1743552000000,
+            "value": 52
+          },
+          {
+            "time": 1746144000000,
+            "value": 50
+          },
+          {
+            "time": 1748822400000,
+            "value": 53
+          },
+          {
+            "time": 1751414400000,
+            "value": 53
+          },
+          {
+            "time": 1754092800000,
+            "value": 53
+          },
+          {
+            "time": 1756771200000,
+            "value": 55
+          },
+          {
+            "time": 1759363200000,
+            "value": 58
+          },
+          {
+            "time": 1762041600000,
+            "value": 58
+          },
+          {
+            "time": 1764637200000,
+            "value": 57
+          },
+          {
+            "time": 1767315600000,
+            "value": 61
+          },
+          {
+            "time": 1769994000000,
+            "value": 61
+          }
         ],
         "jamie": [
-          {"time": 1730419200000, "value": 38}, {"time": 1732924800000, "value": 40},
-          {"time": 1735603200000, "value": 43}, {"time": 1738281600000, "value": 45},
-          {"time": 1740787200000, "value": 48}, {"time": 1743465600000, "value": 50},
-          {"time": 1746057600000, "value": 52}, {"time": 1748736000000, "value": 53},
-          {"time": 1751328000000, "value": 55}, {"time": 1754006400000, "value": 54},
-          {"time": 1756684800000, "value": 56}, {"time": 1759276800000, "value": 55}
+          {
+            "time": 1730419200000,
+            "value": 46
+          },
+          {
+            "time": 1733101200000,
+            "value": 47
+          },
+          {
+            "time": 1735779600000,
+            "value": 47
+          },
+          {
+            "time": 1738458000000,
+            "value": 45
+          },
+          {
+            "time": 1740877200000,
+            "value": 46
+          },
+          {
+            "time": 1743552000000,
+            "value": 49
+          },
+          {
+            "time": 1746144000000,
+            "value": 51
+          },
+          {
+            "time": 1748822400000,
+            "value": 50
+          },
+          {
+            "time": 1751414400000,
+            "value": 52
+          },
+          {
+            "time": 1754092800000,
+            "value": 51
+          },
+          {
+            "time": 1756771200000,
+            "value": 53
+          },
+          {
+            "time": 1759363200000,
+            "value": 53
+          },
+          {
+            "time": 1762041600000,
+            "value": 51
+          },
+          {
+            "time": 1764637200000,
+            "value": 53
+          },
+          {
+            "time": 1767315600000,
+            "value": 54
+          },
+          {
+            "time": 1769994000000,
+            "value": 55
+          }
         ]
       }
     },
     {
       "id": "dakota-reese",
       "title": "Dakota & Reese: Together Forever?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple7",
-      "categories": ["Relationships", "Sports"],
+      "image": "https://randomuser.me/api/portraits/men/7.jpg",
+      "categories": [
+        "Relationships",
+        "Sports"
+      ],
       "volume": "$15,678,234",
       "marketCount": 7,
       "verificationSource": "Sports Illustrated",
@@ -319,7 +1033,7 @@
         {
           "id": "dakota",
           "name": "Dakota Cruz",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=dakota",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
           "chance": 12,
           "yesPrice": 12,
           "noPrice": 88,
@@ -329,39 +1043,158 @@
         {
           "id": "reese",
           "name": "Reese Johnson",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=reese",
+          "image": "https://randomuser.me/api/portraits/women/7.jpg",
           "chance": 10,
           "change": -1,
           "yesPrice": 10,
           "noPrice": 90,
-          "odds": 10.0,
+          "odds": 10,
           "color": "#3b82f6"
         }
       ],
       "chartData": {
         "dakota": [
-          {"time": 1730419200000, "value": 15}, {"time": 1732924800000, "value": 14},
-          {"time": 1735603200000, "value": 13}, {"time": 1738281600000, "value": 14},
-          {"time": 1740787200000, "value": 13}, {"time": 1743465600000, "value": 12},
-          {"time": 1746057600000, "value": 13}, {"time": 1748736000000, "value": 12},
-          {"time": 1751328000000, "value": 13}, {"time": 1754006400000, "value": 12},
-          {"time": 1756684800000, "value": 13}, {"time": 1759276800000, "value": 12}
+          {
+            "time": 1730419200000,
+            "value": -3
+          },
+          {
+            "time": 1733101200000,
+            "value": -4
+          },
+          {
+            "time": 1735779600000,
+            "value": -2
+          },
+          {
+            "time": 1738458000000,
+            "value": 1
+          },
+          {
+            "time": 1740877200000,
+            "value": 2
+          },
+          {
+            "time": 1743552000000,
+            "value": 0
+          },
+          {
+            "time": 1746144000000,
+            "value": 2
+          },
+          {
+            "time": 1748822400000,
+            "value": 6
+          },
+          {
+            "time": 1751414400000,
+            "value": 6
+          },
+          {
+            "time": 1754092800000,
+            "value": 6
+          },
+          {
+            "time": 1756771200000,
+            "value": 8
+          },
+          {
+            "time": 1759363200000,
+            "value": 9
+          },
+          {
+            "time": 1762041600000,
+            "value": 8
+          },
+          {
+            "time": 1764637200000,
+            "value": 11
+          },
+          {
+            "time": 1767315600000,
+            "value": 13
+          },
+          {
+            "time": 1769994000000,
+            "value": 12
+          }
         ],
         "reese": [
-          {"time": 1730419200000, "value": 13}, {"time": 1732924800000, "value": 12},
-          {"time": 1735603200000, "value": 11}, {"time": 1738281600000, "value": 12},
-          {"time": 1740787200000, "value": 11}, {"time": 1743465600000, "value": 10},
-          {"time": 1746057600000, "value": 11}, {"time": 1748736000000, "value": 10},
-          {"time": 1751328000000, "value": 11}, {"time": 1754006400000, "value": 10},
-          {"time": 1756684800000, "value": 11}, {"time": 1759276800000, "value": 10}
+          {
+            "time": 1730419200000,
+            "value": -1
+          },
+          {
+            "time": 1733101200000,
+            "value": 1
+          },
+          {
+            "time": 1735779600000,
+            "value": 1
+          },
+          {
+            "time": 1738458000000,
+            "value": 3
+          },
+          {
+            "time": 1740877200000,
+            "value": 1
+          },
+          {
+            "time": 1743552000000,
+            "value": 4
+          },
+          {
+            "time": 1746144000000,
+            "value": 2
+          },
+          {
+            "time": 1748822400000,
+            "value": 3
+          },
+          {
+            "time": 1751414400000,
+            "value": 4
+          },
+          {
+            "time": 1754092800000,
+            "value": 4
+          },
+          {
+            "time": 1756771200000,
+            "value": 6
+          },
+          {
+            "time": 1759363200000,
+            "value": 6
+          },
+          {
+            "time": 1762041600000,
+            "value": 7
+          },
+          {
+            "time": 1764637200000,
+            "value": 8
+          },
+          {
+            "time": 1767315600000,
+            "value": 8
+          },
+          {
+            "time": 1769994000000,
+            "value": 10
+          }
         ]
       }
     },
     {
       "id": "harper-rowan",
       "title": "Harper & Rowan: On the Rocks?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple8",
-      "categories": ["Relationships", "Fashion"],
+      "image": "https://randomuser.me/api/portraits/women/8.jpg",
+      "categories": [
+        "Relationships",
+        "Fashion"
+      ],
       "volume": "$9,876,543",
       "marketCount": 5,
       "verificationSource": "Vogue Interview",
@@ -370,7 +1203,7 @@
         {
           "id": "harper",
           "name": "Harper West",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=harper",
+          "image": "https://randomuser.me/api/portraits/women/8.jpg",
           "chance": 45,
           "change": 3,
           "yesPrice": 45,
@@ -381,38 +1214,157 @@
         {
           "id": "rowan",
           "name": "Rowan Ellis",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=rowan",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
           "chance": 40,
           "yesPrice": 40,
           "noPrice": 60,
-          "odds": 2.50,
+          "odds": 2.5,
           "color": "#3b82f6"
         }
       ],
       "chartData": {
         "harper": [
-          {"time": 1730419200000, "value": 35}, {"time": 1732924800000, "value": 37},
-          {"time": 1735603200000, "value": 38}, {"time": 1738281600000, "value": 40},
-          {"time": 1740787200000, "value": 41}, {"time": 1743465600000, "value": 43},
-          {"time": 1746057600000, "value": 44}, {"time": 1748736000000, "value": 43},
-          {"time": 1751328000000, "value": 45}, {"time": 1754006400000, "value": 44},
-          {"time": 1756684800000, "value": 46}, {"time": 1759276800000, "value": 45}
+          {
+            "time": 1730419200000,
+            "value": 29
+          },
+          {
+            "time": 1733101200000,
+            "value": 33
+          },
+          {
+            "time": 1735779600000,
+            "value": 34
+          },
+          {
+            "time": 1738458000000,
+            "value": 35
+          },
+          {
+            "time": 1740877200000,
+            "value": 33
+          },
+          {
+            "time": 1743552000000,
+            "value": 34
+          },
+          {
+            "time": 1746144000000,
+            "value": 36
+          },
+          {
+            "time": 1748822400000,
+            "value": 38
+          },
+          {
+            "time": 1751414400000,
+            "value": 39
+          },
+          {
+            "time": 1754092800000,
+            "value": 40
+          },
+          {
+            "time": 1756771200000,
+            "value": 38
+          },
+          {
+            "time": 1759363200000,
+            "value": 40
+          },
+          {
+            "time": 1762041600000,
+            "value": 42
+          },
+          {
+            "time": 1764637200000,
+            "value": 43
+          },
+          {
+            "time": 1767315600000,
+            "value": 45
+          },
+          {
+            "time": 1769994000000,
+            "value": 45
+          }
         ],
         "rowan": [
-          {"time": 1730419200000, "value": 32}, {"time": 1732924800000, "value": 34},
-          {"time": 1735603200000, "value": 35}, {"time": 1738281600000, "value": 37},
-          {"time": 1740787200000, "value": 38}, {"time": 1743465600000, "value": 39},
-          {"time": 1746057600000, "value": 40}, {"time": 1748736000000, "value": 39},
-          {"time": 1751328000000, "value": 41}, {"time": 1754006400000, "value": 40},
-          {"time": 1756684800000, "value": 41}, {"time": 1759276800000, "value": 40}
+          {
+            "time": 1730419200000,
+            "value": 29
+          },
+          {
+            "time": 1733101200000,
+            "value": 29
+          },
+          {
+            "time": 1735779600000,
+            "value": 31
+          },
+          {
+            "time": 1738458000000,
+            "value": 33
+          },
+          {
+            "time": 1740877200000,
+            "value": 33
+          },
+          {
+            "time": 1743552000000,
+            "value": 34
+          },
+          {
+            "time": 1746144000000,
+            "value": 35
+          },
+          {
+            "time": 1748822400000,
+            "value": 33
+          },
+          {
+            "time": 1751414400000,
+            "value": 34
+          },
+          {
+            "time": 1754092800000,
+            "value": 35
+          },
+          {
+            "time": 1756771200000,
+            "value": 35
+          },
+          {
+            "time": 1759363200000,
+            "value": 35
+          },
+          {
+            "time": 1762041600000,
+            "value": 37
+          },
+          {
+            "time": 1764637200000,
+            "value": 40
+          },
+          {
+            "time": 1767315600000,
+            "value": 39
+          },
+          {
+            "time": 1769994000000,
+            "value": 40
+          }
         ]
       }
     },
     {
       "id": "finley-sage",
       "title": "Finley & Sage: The Final Chapter?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple9",
-      "categories": ["Relationships", "YouTube"],
+      "image": "https://randomuser.me/api/portraits/men/9.jpg",
+      "categories": [
+        "Relationships",
+        "YouTube"
+      ],
       "volume": "$4,567,890",
       "marketCount": 3,
       "verificationSource": "YouTube Video",
@@ -421,7 +1373,7 @@
         {
           "id": "finley",
           "name": "Finley Hayes",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=finley",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
           "chance": 78,
           "change": 12,
           "yesPrice": 78,
@@ -432,7 +1384,7 @@
         {
           "id": "sage",
           "name": "Sage Morgan",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=sage",
+          "image": "https://randomuser.me/api/portraits/women/9.jpg",
           "chance": 72,
           "yesPrice": 72,
           "noPrice": 28,
@@ -442,28 +1394,147 @@
       ],
       "chartData": {
         "finley": [
-          {"time": 1730419200000, "value": 55}, {"time": 1732924800000, "value": 58},
-          {"time": 1735603200000, "value": 60}, {"time": 1738281600000, "value": 63},
-          {"time": 1740787200000, "value": 66}, {"time": 1743465600000, "value": 68},
-          {"time": 1746057600000, "value": 70}, {"time": 1748736000000, "value": 72},
-          {"time": 1751328000000, "value": 74}, {"time": 1754006400000, "value": 75},
-          {"time": 1756684800000, "value": 77}, {"time": 1759276800000, "value": 78}
+          {
+            "time": 1730419200000,
+            "value": 63
+          },
+          {
+            "time": 1733101200000,
+            "value": 63
+          },
+          {
+            "time": 1735779600000,
+            "value": 65
+          },
+          {
+            "time": 1738458000000,
+            "value": 66
+          },
+          {
+            "time": 1740877200000,
+            "value": 68
+          },
+          {
+            "time": 1743552000000,
+            "value": 70
+          },
+          {
+            "time": 1746144000000,
+            "value": 71
+          },
+          {
+            "time": 1748822400000,
+            "value": 72
+          },
+          {
+            "time": 1751414400000,
+            "value": 69
+          },
+          {
+            "time": 1754092800000,
+            "value": 70
+          },
+          {
+            "time": 1756771200000,
+            "value": 72
+          },
+          {
+            "time": 1759363200000,
+            "value": 74
+          },
+          {
+            "time": 1762041600000,
+            "value": 75
+          },
+          {
+            "time": 1764637200000,
+            "value": 77
+          },
+          {
+            "time": 1767315600000,
+            "value": 77
+          },
+          {
+            "time": 1769994000000,
+            "value": 78
+          }
         ],
         "sage": [
-          {"time": 1730419200000, "value": 52}, {"time": 1732924800000, "value": 55},
-          {"time": 1735603200000, "value": 57}, {"time": 1738281600000, "value": 60},
-          {"time": 1740787200000, "value": 62}, {"time": 1743465600000, "value": 64},
-          {"time": 1746057600000, "value": 66}, {"time": 1748736000000, "value": 68},
-          {"time": 1751328000000, "value": 70}, {"time": 1754006400000, "value": 71},
-          {"time": 1756684800000, "value": 73}, {"time": 1759276800000, "value": 72}
+          {
+            "time": 1730419200000,
+            "value": 61
+          },
+          {
+            "time": 1733101200000,
+            "value": 63
+          },
+          {
+            "time": 1735779600000,
+            "value": 65
+          },
+          {
+            "time": 1738458000000,
+            "value": 66
+          },
+          {
+            "time": 1740877200000,
+            "value": 64
+          },
+          {
+            "time": 1743552000000,
+            "value": 66
+          },
+          {
+            "time": 1746144000000,
+            "value": 65
+          },
+          {
+            "time": 1748822400000,
+            "value": 66
+          },
+          {
+            "time": 1751414400000,
+            "value": 67
+          },
+          {
+            "time": 1754092800000,
+            "value": 67
+          },
+          {
+            "time": 1756771200000,
+            "value": 70
+          },
+          {
+            "time": 1759363200000,
+            "value": 70
+          },
+          {
+            "time": 1762041600000,
+            "value": 70
+          },
+          {
+            "time": 1764637200000,
+            "value": 73
+          },
+          {
+            "time": 1767315600000,
+            "value": 71
+          },
+          {
+            "time": 1769994000000,
+            "value": 72
+          }
         ]
       }
     },
     {
       "id": "emerson-phoenix",
       "title": "Emerson & Phoenix: Love or Drama?",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=couple10",
-      "categories": ["Relationships", "TikTok"],
+      "image": "https://randomuser.me/api/portraits/men/10.jpg",
+      "categories": [
+        "Relationships",
+        "TikTok"
+      ],
       "volume": "$18,345,678",
       "marketCount": 9,
       "verificationSource": "TikTok Live",
@@ -472,7 +1543,7 @@
         {
           "id": "emerson",
           "name": "Emerson Gray",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=emerson",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
           "chance": 33,
           "yesPrice": 33,
           "noPrice": 67,
@@ -482,7 +1553,7 @@
         {
           "id": "phoenix",
           "name": "Phoenix Reed",
-          "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=phoenix",
+          "image": "https://randomuser.me/api/portraits/women/10.jpg",
           "chance": 29,
           "change": 4,
           "yesPrice": 29,
@@ -493,20 +1564,136 @@
       ],
       "chartData": {
         "emerson": [
-          {"time": 1730419200000, "value": 28}, {"time": 1732924800000, "value": 29},
-          {"time": 1735603200000, "value": 30}, {"time": 1738281600000, "value": 31},
-          {"time": 1740787200000, "value": 32}, {"time": 1743465600000, "value": 31},
-          {"time": 1746057600000, "value": 33}, {"time": 1748736000000, "value": 32},
-          {"time": 1751328000000, "value": 34}, {"time": 1754006400000, "value": 33},
-          {"time": 1756684800000, "value": 34}, {"time": 1759276800000, "value": 33}
+          {
+            "time": 1730419200000,
+            "value": 17
+          },
+          {
+            "time": 1733101200000,
+            "value": 21
+          },
+          {
+            "time": 1735779600000,
+            "value": 18
+          },
+          {
+            "time": 1738458000000,
+            "value": 22
+          },
+          {
+            "time": 1740877200000,
+            "value": 22
+          },
+          {
+            "time": 1743552000000,
+            "value": 22
+          },
+          {
+            "time": 1746144000000,
+            "value": 23
+          },
+          {
+            "time": 1748822400000,
+            "value": 23
+          },
+          {
+            "time": 1751414400000,
+            "value": 25
+          },
+          {
+            "time": 1754092800000,
+            "value": 28
+          },
+          {
+            "time": 1756771200000,
+            "value": 27
+          },
+          {
+            "time": 1759363200000,
+            "value": 28
+          },
+          {
+            "time": 1762041600000,
+            "value": 32
+          },
+          {
+            "time": 1764637200000,
+            "value": 33
+          },
+          {
+            "time": 1767315600000,
+            "value": 30
+          },
+          {
+            "time": 1769994000000,
+            "value": 33
+          }
         ],
         "phoenix": [
-          {"time": 1730419200000, "value": 22}, {"time": 1732924800000, "value": 23},
-          {"time": 1735603200000, "value": 24}, {"time": 1738281600000, "value": 25},
-          {"time": 1740787200000, "value": 26}, {"time": 1743465600000, "value": 25},
-          {"time": 1746057600000, "value": 27}, {"time": 1748736000000, "value": 26},
-          {"time": 1751328000000, "value": 28}, {"time": 1754006400000, "value": 27},
-          {"time": 1756684800000, "value": 29}, {"time": 1759276800000, "value": 29}
+          {
+            "time": 1730419200000,
+            "value": 19
+          },
+          {
+            "time": 1733101200000,
+            "value": 18
+          },
+          {
+            "time": 1735779600000,
+            "value": 19
+          },
+          {
+            "time": 1738458000000,
+            "value": 22
+          },
+          {
+            "time": 1740877200000,
+            "value": 21
+          },
+          {
+            "time": 1743552000000,
+            "value": 22
+          },
+          {
+            "time": 1746144000000,
+            "value": 24
+          },
+          {
+            "time": 1748822400000,
+            "value": 23
+          },
+          {
+            "time": 1751414400000,
+            "value": 25
+          },
+          {
+            "time": 1754092800000,
+            "value": 24
+          },
+          {
+            "time": 1756771200000,
+            "value": 27
+          },
+          {
+            "time": 1759363200000,
+            "value": 28
+          },
+          {
+            "time": 1762041600000,
+            "value": 27
+          },
+          {
+            "time": 1764637200000,
+            "value": 28
+          },
+          {
+            "time": 1767315600000,
+            "value": 28
+          },
+          {
+            "time": 1769994000000,
+            "value": 29
+          }
         ]
       }
     }

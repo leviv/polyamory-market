@@ -45,11 +45,6 @@
   display: block;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 12px;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  }
 }
 
 .market-title-card {
@@ -57,9 +52,9 @@
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
   padding: 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 
   .card-title {
     font-size: 16px;
