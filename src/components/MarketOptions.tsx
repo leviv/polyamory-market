@@ -1,15 +1,6 @@
 import { useState } from 'react'
+import type { MarketOption } from '../types/market'
 import './MarketOptions.scss'
-
-interface MarketOption {
-  id: string
-  name: string
-  image: string
-  chance: number
-  change?: number
-  yesPrice: number
-  noPrice: number
-}
 
 interface MarketOptionsProps {
   volume?: string
@@ -25,6 +16,8 @@ const defaultOptions: MarketOption[] = [
     chance: 27,
     yesPrice: 27,
     noPrice: 75,
+    odds: 3.7,
+    color: '#4ade80',
   },
   {
     id: 'aoc',
@@ -33,6 +26,8 @@ const defaultOptions: MarketOption[] = [
     chance: 10,
     yesPrice: 10,
     noPrice: 91,
+    odds: 10.0,
+    color: '#3b82f6',
   },
   {
     id: 'harris',
@@ -42,6 +37,8 @@ const defaultOptions: MarketOption[] = [
     change: 1,
     yesPrice: 7,
     noPrice: 94,
+    odds: 14.3,
+    color: '#f97316',
   },
 ]
 
