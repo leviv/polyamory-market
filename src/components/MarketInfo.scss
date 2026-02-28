@@ -1,0 +1,108 @@
+.market-info {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.market-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+  .market-info-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    flex: 1;
+    padding-right: 16px;
+  }
+
+  .market-info-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+}
+
+.market-info-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+
+  .market-info-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .option-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      .option-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .option-name {
+        font-size: 16px;
+        font-weight: 500;
+        color: #1a1a1a;
+      }
+    }
+
+    .option-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      .option-odds {
+        font-size: 14px;
+        font-weight: 500;
+        color: #9ca3af;
+      }
+
+      .option-chance {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 56px;
+        padding: 8px 16px;
+        border: 1px solid #e5e5e5;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #22c55e;
+      }
+    }
+  }
+}
+
+.market-info-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+
+  .volume {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9ca3af;
+  }
+
+  .market-count {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9ca3af;
+  }
+}
