@@ -110,12 +110,13 @@
     transition: all 0.2s ease;
 
     &.yes {
-      background: #e8f5e9;
-      border: 2px solid transparent;
+      background: #fff;
+      border: 2px solid #e0e0e0;
       color: #00c853;
 
       &.active {
         border-color: #00c853;
+        background: #e8f5e9;
       }
     }
 
@@ -126,6 +127,7 @@
 
       &.active {
         border-color: #f44336;
+        background: #d916160f;
       }
 
       &:hover:not(.active) {
