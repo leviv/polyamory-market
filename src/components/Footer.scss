@@ -1,8 +1,9 @@
 .footer {
-  background-color: #1a1a2e;
-  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.07);
+  color: rgba(0, 0, 0, 0.9);
   padding: 60px 80px 40px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
 
   &__content {
     display: flex;
@@ -25,9 +26,7 @@
   }
 
   &__heading {
-    font-size: 14px;
-    font-weight: 600;
-    color: #ffffff;
+    font-weight: 500;
     margin-bottom: 8px;
   }
 
@@ -38,14 +37,11 @@
   }
 
   &__link {
-    font-size: 14px;
-    color: #a0a0a0;
     text-decoration: none;
     cursor: pointer;
-    transition: color 0.2s ease;
 
     &:hover {
-      color: #ffffff;
+      text-decoration: underline;
     }
   }
 
@@ -57,14 +53,11 @@
   }
 
   &__copyright {
-    font-size: 14px;
-    font-weight: 600;
-    color: #ffffff;
+    font-weight: 500;
     margin-bottom: 16px;
   }
 
   &__disclaimer {
-    font-size: 13px;
     color: #a0a0a0;
     line-height: 1.6;
   }
