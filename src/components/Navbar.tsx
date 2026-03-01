@@ -60,7 +60,11 @@ export const Navbar = () => {
               </div>
             </div>
           </div>
-          <button className="about-button">About</button>
+          <button className="about-button">
+            <a href="https://tisch.nyu.edu/itp/events/fall-20251/itp-ima-stupid-hackathon-2026">
+              About
+            </a>
+          </button>
         </div>
       </nav>
     </div>

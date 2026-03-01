@@ -618,4 +618,14 @@ nav a {
   border: none;
   font-family: inter;
   margin-left: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background: #63d7aa;
+  }
+
+  & a {
+    display: inline;
+    color: inherit;
+  }
 }
