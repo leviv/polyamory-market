@@ -1,12 +1,17 @@
-import { useState } from 'react'
-import './BuySell.scss'
+import { useState } from "react";
+import "./BuySell.scss";
 
 interface BuySellProps {
-  question?: string
-  candidate?: string
-  candidateImage?: string
-  yesPrice?: number
-  noPrice?: number
+  question?: string;
+  candidate?: string;
+  candidateImage?: string;
+  yesPrice?: number;
+  noPrice?: number;
+  onBuySell?: (
+    mode: "buy" | "sell",
+    selection: "yes" | "no",
+    dollars: number,
+  ) => void;
 }
 
 export const BuySell = ({
@@ -15,11 +20,11 @@ export const BuySell = ({
   candidateImage = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Alexandria_Ocasio-Cortez_Official_Portrait.jpg/440px-Alexandria_Ocasio-Cortez_Official_Portrait.jpg",
   yesPrice = 10,
   noPrice = 91,
+  onBuySell,
 }: BuySellProps) => {
-  const [mode, setMode] = useState<'buy' | 'sell'>('buy')
-  const [selection, setSelection] = useState<'yes' | 'no'>('yes')
-  const [dollars, _setDollars] = useState(0)
-  void _setDollars // Will be used for input functionality
+  const [mode, setMode] = useState<"buy" | "sell">("buy");
+  const [selection, setSelection] = useState<"yes" | "no">("yes");
+  const [dollars, setDollars] = useState(0);
 
   return (
     <div className="buysell-container">
@@ -37,15 +42,15 @@ export const BuySell = ({
       {/* Buy/Sell Toggle & Currency */}
       <div className="controls-row">
         <div className="mode-toggle">
-          <button 
-            className={`mode-btn ${mode === 'buy' ? 'active' : ''}`}
-            onClick={() => setMode('buy')}
+          <button
+            className={`mode-btn ${mode === "buy" ? "active" : ""}`}
+            onClick={() => setMode("buy")}
           >
             Buy
           </button>
-          <button 
-            className={`mode-btn ${mode === 'sell' ? 'active' : ''}`}
-            onClick={() => setMode('sell')}
+          <button
+            className={`mode-btn ${mode === "sell" ? "active" : ""}`}
+            onClick={() => setMode("sell")}
           >
             Sell
           </button>
@@ -57,15 +62,15 @@ export const BuySell = ({
 
       {/* Yes/No Selection */}
       <div className="selection-row">
-        <button 
-          className={`selection-btn yes ${selection === 'yes' ? 'active' : ''}`}
-          onClick={() => setSelection('yes')}
+        <button
+          className={`selection-btn yes ${selection === "yes" ? "active" : ""}`}
+          onClick={() => setSelection("yes")}
         >
           Yes {yesPrice}¢
         </button>
-        <button 
-          className={`selection-btn no ${selection === 'no' ? 'active' : ''}`}
-          onClick={() => setSelection('no')}
+        <button
+          className={`selection-btn no ${selection === "no" ? "active" : ""}`}
+          onClick={() => setSelection("no")}
         >
           No {noPrice}¢
         </button>
@@ -77,13 +82,37 @@ export const BuySell = ({
           <span className="dollars-label">Dollars</span>
           <span className="interest-text">Earn 3.25% Interest</span>
         </div>
-        <span className="dollars-amount">${dollars}</span>
+        <input
+          style={{ color: dollars > 0 ? "black" : undefined }}
+          className="dollars-amount"
+          type="input"
+          min={0}
+          value={`$${dollars}`}
+          onChange={(e) =>
+            setDollars(Math.max(0, Number(e.target.value.slice(1)) || 0))
+          }
+          onFocus={(e) => {
+            e.target.select();
+            setTimeout(function () {
+              e.target.select();
+            }, 10);
+          }}
+        />
       </div>
 
       {/* Buy Button */}
-      <button className="buy-button">
-        {mode === 'buy' ? 'Buy' : 'Sell'}
+      <button
+        className="buy-button"
+        disabled={dollars <= 0}
+        onClick={() => {
+          if (onBuySell && dollars > 0) {
+            onBuySell(mode, selection, dollars);
+            setDollars(0);
+          }
+        }}
+      >
+        {mode === "buy" ? "Buy" : "Sell"}
       </button>
     </div>
-  )
-}
+  );
+};
