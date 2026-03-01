@@ -14,6 +14,10 @@ interface BuySellProps {
   ) => void;
 }
 
+function addCommas(num: number) {
+  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "$&,");
+}
+
 export const BuySell = ({
   question = "2028 Democratic nominee for President?",
   candidate = "Alexandria Ocasio-Cortez",
@@ -87,9 +91,14 @@ export const BuySell = ({
           className="dollars-amount"
           type="input"
           min={0}
-          value={`$${dollars}`}
+          value={`$${addCommas(dollars)}`}
           onChange={(e) =>
-            setDollars(Math.max(0, Number(e.target.value.slice(1)) || 0))
+            setDollars(
+              Math.max(
+                0,
+                Number(e.target.value.slice(1).replaceAll(",", "")) || 0,
+              ),
+            )
           }
           onFocus={(e) => {
             e.target.select();
