@@ -61,7 +61,7 @@ export const Navbar = () => {
             </div>
           </div>
           <button className="about-button">
-            <a href="https://tisch.nyu.edu/itp/events/fall-20251/itp-ima-stupid-hackathon-2026">
+            <a href="https://tisch.nyu.edu/itp/events/fall-20251/itp-ima-stupid-hackathon-2026" target="_blank">
               About
             </a>
           </button>
