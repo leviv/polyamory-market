@@ -64,9 +64,9 @@ export const Footer = () => {
       </div>
 
       <div className="footer__bottom">
-        <p className="footer__copyright">© 2026 Kalshi Inc.</p>
+        <p className="footer__copyright">© 2026 PolyamoryMarket Inc.</p>
         <p className="footer__disclaimer">
-          Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading on Kalshi is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Kalshi is subject to U.S. regulatory oversight by the CFTC.
+          Trading on PolyamoryMarket involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading on PolyamoryMarket is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. PolyamoryMarket is subject to U.S. regulatory oversight by the CFTC.
         </p>
       </div>
     </footer>
